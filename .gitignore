@@ -1,0 +1,48 @@
+```
+# Build artifacts
+dist/
+build/
+target/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.Python
+venv/
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+*.egg
+
+# Temporary files
+*.tmp
+*.temp
+```
