@@ -1,48 +1,70 @@
 ```
-# Build artifacts
-dist/
-build/
-target/
-
 # Dependencies
 node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.so
-*.egg-info/
 .Python
+env/
 venv/
-.env
-.env.local
-.env.*
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
 
-# Editors
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.nyc_output
+coverage/
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Vite specific
+!.vite/
+.vite/cache
+.vite/deps
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-*.tar.gz
-*.whl
-*.egg
-
-# Temporary files
-*.tmp
-*.temp
 ```
